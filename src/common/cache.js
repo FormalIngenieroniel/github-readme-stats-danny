@@ -43,9 +43,9 @@ const CACHE_TTL = {
     MAX: DURATIONS.TEN_DAY,
   },
   PIN_CARD: {
-    DEFAULT: DURATIONS.TEN_DAY,
-    MIN: DURATIONS.ONE_DAY,
-    MAX: DURATIONS.TEN_DAY,
+    DEFAULT: DURATIONS.TWELVE_HOURS, // CAMBIO: 12 horas por defecto (antes 10 días)
+    MIN: DURATIONS.FOUR_HOURS,       // CAMBIO: Mínimo 4 horas (antes 1 día)
+    MAX: DURATIONS.ONE_DAY,          // CAMBIO: Máximo 1 día (antes 10 días)
   },
   GIST_CARD: {
     DEFAULT: DURATIONS.TWO_DAY,
